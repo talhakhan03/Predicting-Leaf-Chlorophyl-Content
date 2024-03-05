@@ -1,0 +1,6 @@
+from google.colab import files 
+import pandas as pd
+uploaded = files.upload()
+file = '/content/name_of_the_file.extension'
+#In line number 4 if file extension is xlsx, then file can be read using command df = pd.read(file,sheet_name = 'name_of_sheet')
+#In line 5 name_of_sheet will be the sheet of the excel file one wants to open, df is dataframe and pd is pandas library
