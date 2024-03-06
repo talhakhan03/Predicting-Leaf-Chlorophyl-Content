@@ -1,0 +1,8 @@
+# Get X and y
+X = df.loc[:,350:].values #selecing values all coloumns from column 350 till the end
+y = df['LCC'].values
+print(X.shape)
+print(y.shape)
+
+# Plot one of the samples
+plt.plot(X[1,:]) #spectral profile of one sample
